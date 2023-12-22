@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='icons8-book-100.png') }}" type="image/x-icon">
+    <title>bookDOM</title>
+    <link rel="stylesheet" href="/static/styles.css">
+ 
+</head>
+<body>
+    <div class="container">
+        <h2>A Book For You</h2>
+        <h1>Title: {{ book_title }}</h1>  
+        <h1>Author: {{book_author}}</h1>
+        <a href="/" class="btn">Get Another Recommendation</a>
+    </div>
+    <div class="bottom-left-background"></div>
+
+</body>
+</html>

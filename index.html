@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="{{ url_for('static', filename='icons8-book-100.png') }}" type="image/x-icon">
+    <title>bookDOM</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    
+
+<body>
+    <div class="container">
+        <h1>Welcome to bookDOM</h1>
+        <form action="/recommendation" method="post">
+            <button type="submit" class="btn">Recommend a Book</button>
+        </form>
+
+        <div class="auth-buttons">
+            <a href="{{url_for('login')}}" class="bts">Login</a>
+            <a href="{{url_for('register')}}" class="bts">Register</a>
+        </div>
+    </div>
+    <div class="bottom-left-background"></div>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <form action="/" method="post">
+        what is your favorite animal?
+        <select name="animal">
+            <option value="cat">cat</option>
+            <option value="lion">lion</option>
+        </select>
+        <button type="submit">SUBMIT</button>
+    </form>
+{% endblock %}

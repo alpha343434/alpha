@@ -32,12 +32,12 @@ struct time differance(struct time t1,struct time t2){
 
 int main() { 
 
-	int kacsaniye;
+	int minute_amount;
 	struct time t;
 	
 	printf("enter seconds");
-	scanf("%d",&kacsaniye);
-	t= function(kacsaniye);
+	scanf("%d",&minute_amount);
+	t= function(minute_amount);
 	printf("time is %d.%d.%d",t.hour,t.minute,t.second);
 
 	struct time t1,t2;

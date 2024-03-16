@@ -11,14 +11,7 @@ int main(){
 	ch2=getchar();
 	
 	float ha=2.0f/((1/(float)ch1)+(1/(float)ch2));
-	printf("harmocin average of %c and %c is %f",ch1,ch2,ha);
-	
+	printf("harmonic average of %c and %c is %f",ch1,ch2,ha);
 
-
-
-
-
-
-
-return 0;
+	return 0;
 }

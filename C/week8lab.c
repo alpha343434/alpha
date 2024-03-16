@@ -21,7 +21,7 @@ int main(){
 			}if(isidentical==0){
 			count++;
 		}
-		}
+	}
 	
 	printf("%d",count);
 

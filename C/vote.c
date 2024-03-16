@@ -3,7 +3,7 @@
 int main(){
 	
 	int yas;
-	printf("yasýnýzý girini");
+	printf("yasÄ±nÄ±zÄ± girini");
 	scanf("%d",&yas);
 	
 	if(yas>=18){
@@ -12,7 +12,5 @@ int main(){
 	}
 	else{printf("kullanamaz");
 	}
-	
-	
 	return 0;
 }

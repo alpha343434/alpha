@@ -11,16 +11,7 @@ int main() {
 	switch(i){
 		case '$': printf("x1,x2"); break;
 		case '!': printf("x1=x2"); break;
-		case '+': printf("komlex"); break;  // default: printf("komlex");  þeklinde de yazabilirdik
+		case '+': printf("komlex"); break;
 	}
-
-
-
-
-
-
-
-
-
 
 return 0;}

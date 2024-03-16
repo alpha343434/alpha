@@ -22,13 +22,13 @@ int main() {
 }
 
 	if(dosya!=NULL){
-		while(!feof(dosya)){ //dosyanýn sonuna gelinmediði sürece
+		while(!feof(dosya)){ //dosyanÄ±n sonuna gelinmediÄŸi sÃ¼rece
 			fscanf(dosya,"%s",&dizi[i])	;
 			i++;
 		}
 		
 	}else{
-		printf("dosya bulunamadý");
+		printf("dosya bulunamadÄ±");
 	}
 	char karakter; //dosyadaki metniz konsola yazma
 	karakter=fgetc(dosya);

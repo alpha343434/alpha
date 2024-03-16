@@ -11,7 +11,6 @@ int main(){
 	
 	y=f(x);
 	printf(" Hilbert number: %d",y);
-	
-	
+
 	return 0;
 }

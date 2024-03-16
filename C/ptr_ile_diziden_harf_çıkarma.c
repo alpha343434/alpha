@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-//bu kodun çalýþýp çalýþmadýðýný öðrenemedim
+
 int main(){
 	char str[100];
 	char secilen, *ptr;
@@ -8,7 +8,7 @@ int main(){
 	printf("karakter dizisi:");
 	gets(str);
 	
-	printf("cýkarilacak eleman:");
+	printf("cÃ½karilacak eleman:");
 	scanf("%c",secilen);
 	
 	for(ptr=str; *ptr; ptr++){

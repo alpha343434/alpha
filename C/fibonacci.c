@@ -15,7 +15,7 @@ void fibonacci(int n){
 
 int main(){
     int n;
-    printf("Kaç adet Fibonacci sayýsý yazdýrmak istiyorsunuz? ");
+    printf("How many Fibonacci numbers do you want to print? ");
     scanf("%d",&n);
     
     fibonacci(n);

@@ -7,7 +7,7 @@ int main(){
 	
 	y=time(NULL);
 	srand(time(NULL));
-	x=75+rand()%156;  //75 ve 230 arasýnda deðerler üretir
+	x=75+rand()%156;
 	
 	printf("%d\n",x);
 	printf("%d",y);

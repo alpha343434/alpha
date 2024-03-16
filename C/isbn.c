@@ -10,7 +10,6 @@ int ISBN(long long int isbn){
 		isbn /=10;
 	}
 	
-	
 	if(checkdigit == sum%10){
 		return 1;
 	}else{

@@ -16,6 +16,7 @@ int main()
     }
 
     int i=0;
+    bool ans=true;
     while(!s.empty() && i<str.size()){
         char popped=s.top();
         s.pop();
@@ -23,13 +24,14 @@ int main()
         char current=str[i++];
         
         if(popped != current){
-            cout <<str <<" is NOT a palindrome." <<endl;
+            ans=false;
             break;
         }
-        else{
-            cout <<str <<" is a palindrome.";
-            break;
-        }
+    }
+    if(!ans){
+        cout <<str <<" is NOT a palindrome." <<endl;
+    }else{
+        cout <<str <<" is a palindrome.";
     }
     return 0;
 };

@@ -33,3 +33,29 @@ int main()
     }
     return 0;
 };
+/* without stack structure
+#include <iostream>
+#include <math.h>
+
+bool isPalindrome(string input) {
+	for (int i = 0; i < floor(input.length() / 2); i++) {
+		if (input[i] != input[input.length() - 1 - i]) {
+			return false;
+		}
+	}
+	return true;
+}
+
+int main() {
+	string input;
+	cin >> input;
+
+	if (isPalindrome(input)) {
+		cout <<input <<" is a palindrome." <<endl;
+	} else {
+		cout <<input <<" is not a palindrome." <<endl;
+	}
+
+	return 0;
+}
+*/

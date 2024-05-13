@@ -6,7 +6,7 @@ class node{
     node *left;
     node *right;
     friend class BST;
-}
+};
 
 class BST{
     node *root;
@@ -16,7 +16,7 @@ class BST{
         root = NULL;
     }
     void insert(int);
-}
+};
 
 void BST::insert(int key){
     node *n = new node;

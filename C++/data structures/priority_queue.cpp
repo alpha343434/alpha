@@ -2,19 +2,16 @@
 #include <queue>
 using namespace std;
 
-void print(priority_queue <int> pq)
-{
+void print(priority_queue <int> pq){
     cout <<"Priority queue: ";
-    while(!pq.empty())
-    {
+    while(!pq.empty()){
         cout <<pq.top() <<" ";
         pq.pop();
-    };
+    }
     cout <<endl;
-};
+}
 
-int main()
-{
+int main(){
     priority_queue <int> pq1, pq2;
     
     if(pq1.empty())
